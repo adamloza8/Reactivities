@@ -7,7 +7,7 @@ import { useStore } from '../../../app/stores/store';
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import MyTextInput from '../../../app/common/form/MyTextInput';
-import MyTextArea from './MyTextArea';
+import MyTextArea from '../../../app/common/form/MyTextArea';
 import MySelectInput from './MySelectInput';
 import { categoryOptions } from '../../../app/common/options/categoryOptions';
 import MyDateInput from './MyDateInput';
